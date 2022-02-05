@@ -78,7 +78,7 @@ module "project" {
   source  = "terraform-google-modules/project-factory/google//modules/shared_vpc"
   version = "~> 9.1.0"
 
-  name                    = "alexistudies-dev-apps"
+  name                    = "alexistudies-dev-app"
   org_id                  = ""
   folder_id               = "613190869381"
   billing_account         = "0116C3-ECA222-D75641"
